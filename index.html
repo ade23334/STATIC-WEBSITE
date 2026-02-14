@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITY WEBSITE DESIGN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+</head>
+<body>
+     <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links">
+                <i class="fa fa-times" onclick="hidenMenue()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="ShowMenue()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>CRESTWOOD UNIVERSITY  </h1>
+        <p>Explore. Learn. Grow. Join us to embark on a journey of knowledge and discovery
+             at our esteemed university.</p>
+        <a href="about.html" class="hero-btn">Visit Us to Know More</a>
+    </div>
+
+     </section>
+
+     <!--Campus Section-->
+     <!--this part reviews the structure of the campus which includes;modern classrooms,
+     library and the main campus-->
+
+     <section class="campus">
+        <h1>Our Beautiful Campus</h1>
+        <p>Experience the vibrant campus life at Crestwood University, where state-of-the-art
+             facilities meet a welcoming community.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/dummy1.jpg">
+                <div class="layer">
+                    <h3>Modern Classrooms</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/dummy.jpg">
+                <div class="layer">
+                    <h3>Spacious Library</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/dummy2.jpg">
+                <div class="layer">
+                    <h3>Main Campus</h3>
+                </div>
+            </div>
+        </div>
+
+     </section>
+     <!---Facilities Section-->
+     <!--this part reviews a clearer picture of the campus' facilities giving a very beautiful picture to the users-->
+
+        <section class="FACILITIES">
+            <h1>Campus Facilities</h1>
+            <p>Our campus is equipped with top-notch facilities to support your academic and extracurricular activities.</p>
+    
+            <div class="row">
+            
+                    <div class="facilities-col">
+                        <img src="images/dummy6.jpg">
+                        <h3>STUDENT CENTER</h3>
+                        <p>A vibrant hub for student activities, dining, and socializing.
+                            We understand that students need some time to relax after a a very long day or week.
+                            Therefore,we have the student center to give the students that leisure time they need.
+                        </p>
+                    </div>
+                    <div class="facilities-col">
+                        <img src="images/dummy5.jpg">
+                        <h3>LIBRARY</h3>
+                        <p>A vast collection of resources and study spaces to support your learning.
+                            Because we believe that greatness is unlocked through reading,our library is 
+                            stocked with different kinds of books in order
+                             to enhance their reading and in order to bestow a reading culture in them.
+                        </p>
+
+                    </div>
+                    <div class="facilities-col">
+                        <img src="images/dummy4 (2).jpg">
+                        <h3>SPORTS CENTER</h3>
+                        <p>State-of-the-art sports facilities to keep you active and healthy.</p>
+     
+        <section class="courses">
+            <h1>Courses We Offer</h1>
+            <p>Discover a variety of courses designed to help you achieve your academic and career goals.</p>
+    
+            <div class="row">
+                <div class="course-col">
+                    <h3>Computer Science</h3>
+                    <p>Dive into the world of algorithms,Cyber Security, programming, and software 
+                        development with our comprehensive Computer Science course.</p>
+
+                </div>
+                <div class="course-col">
+                    <h3>Business Administration</h3>
+                    <p>Learn the fundamentals of business management, marketing,
+                         and finance to prepare for a successful career in the corporate world.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Business Administration</h3>
+                    <p>Learn the fundamentals of business management, marketing,
+                         and finance to prepare for a successful career in the corporate world.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Psychology</h3>
+                    <p>Explore the human mind and behavior through our engaging
+                         Psychology course, covering various theories and applications.</p>
+                </div>
+            </div>
+        <section  class="Testimonials">
+            <h1>What Our Students Say</h1>
+            <p>Hear from our students about their experiences at Crestwood University.</p>
+    
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="images/user1.jpg">
+                    <div>
+                        <p>"Crestwood University has provided me with an exceptional education
+                             and a supportive community. The faculty are dedicated to student success."</p>
+                        <h3>Jane Doe</h3>
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/user2.jpg">
+                    <div>
+                        <p>"The campus facilities are top-notch, and the variety of courses offered 
+                            has allowed me to explore my interests and prepare for my future career."</p>
+                        <h3>John Smith</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <script>
+            var navLinks = document.getElementsByClassName("nav-links")[0];
+            function ShowMenue(){
+                navLinks.style.right = "0";
+            }
+            function hidenMenue(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </section>
+</body>
+</html>
