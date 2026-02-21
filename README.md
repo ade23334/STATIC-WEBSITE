@@ -1,2 +1,2 @@
 # STATIC-WEBSITE
-This is the static website for a university library
+A University Library Website that enables users to connect and interact with the University virtuall.
